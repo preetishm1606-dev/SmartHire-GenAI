@@ -1,0 +1,16 @@
+skill_id,skill,skill_type,common_roles
+S001,Python,Programming,Data Analyst; Python Developer; ML Engineer
+S002,SQL,Database,Data Analyst; Database Developer; Software Developer
+S003,Excel,Data Analysis,Data Analyst; Business Analyst
+S004,Power BI,Visualization,Data Analyst; Business Analyst
+S005,Statistics,Analytics,Data Analyst; ML Engineer
+S006,Git,Version Control,Python Developer; Software Developer; QA Automation Engineer
+S007,REST API,Backend,Python Developer; Web Developer; Software Developer
+S008,OOP,Programming,Python Developer; Software Developer
+S009,Machine Learning,AI,ML Engineer
+S010,Pandas,Data Science,Data Analyst; ML Engineer
+S011,Scikit-learn,Machine Learning,ML Engineer
+S012,JavaScript,Web Development,Web Developer
+S013,React,Frontend,Web Developer
+S014,HTML,Web Development,Web Developer
+S015,Selenium,Testing,QA Automation Engineer

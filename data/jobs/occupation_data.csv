@@ -1,0 +1,9 @@
+occupation_id,occupation,category,core_skills
+O001,Data Analyst,Data,Python; SQL; Excel; Statistics; Power BI
+O002,Python Developer,Software Development,Python; OOP; SQL; Git; REST API
+O003,Machine Learning Engineer,Artificial Intelligence,Python; Machine Learning; Statistics; Pandas; Scikit-learn
+O004,Software Developer,Software Development,Programming; OOP; Data Structures; SQL; Git
+O005,Business Analyst,Business & Data,Requirements Analysis; Excel; SQL; Power BI; Communication
+O006,Web Developer,Web Development,HTML; CSS; JavaScript; React; REST API
+O007,Database Developer,Database,SQL; Database Design; MySQL; PostgreSQL; Python
+O008,QA Automation Engineer,Quality Assurance,Testing; Python; Selenium; SQL; Git

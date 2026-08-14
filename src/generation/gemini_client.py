@@ -1,0 +1,47 @@
+import os
+
+from dotenv import load_dotenv
+from google import genai
+
+
+load_dotenv()
+
+api_key = os.getenv("GEMINI_API_KEY")
+
+if not api_key:
+    raise ValueError(
+        "GEMINI_API_KEY was not found in .env"
+    )
+
+client = genai.Client(api_key=api_key)
+
+
+def analyze_resume(resume_text):
+
+    prompt = f"""
+You are a resume analysis assistant for SmartHire.
+
+Analyze the resume below.
+
+Extract ONLY information actually present in the resume.
+
+Give the result under these headings:
+
+1. Skills
+2. Education
+3. Work Experience
+4. Projects
+5. Certifications
+
+Do not invent any information.
+
+RESUME:
+{resume_text}
+"""
+
+    response = client.models.generate_content(
+        model="gemini-3.6-flash",
+        contents=prompt
+    )
+
+    return response.text
