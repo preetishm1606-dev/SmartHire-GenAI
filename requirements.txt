@@ -9,3 +9,4 @@ langchain-core
 pypdf
 python-docx
 sentence-transformers
+langchain-huggingface
